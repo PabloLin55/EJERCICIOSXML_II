@@ -1,0 +1,58 @@
+<!--
+Nombre: Pablo Lin
+Curso: 1DAW
+Fecha: 21/03/2025
+Ejercicio: XMLBásico4
+-->
+<!--Curso-->
+<daw>
+    <modulos>
+    <!--Definición de un módulo del curso-->
+        <modulo horasSemanales="4" caracter="obligatorio">
+            <nombre>Lenguaje de Marcas</nombre>
+            <duracion>
+                <inicio>
+                    <dia>15</dia>
+                    <mes>Septiembre</mes>
+                    <ano>2023</ano>
+                </inicio>
+
+                <fin>
+                    <dia>22</dia>
+                    <mes>Junio</mes>
+                    <ano>2024</ano>
+                </fin>
+            </duracion>
+            <!--Información sobre los alumnos matriculados en este módulo-->
+            <alumnos>
+                <alumno>
+                    <nombre>Ana Fernandez Gutiérrez</nombre>
+                    <dni>51623487V</dni>
+                    <telefono>666544566</telefono>
+                    <email>anafernandez@gmail.com</email>
+                    <direccion>
+                        <calle numero="14">Amatista</calle>
+                        <codigo_postal>28905</codigo_postal>
+                        <ciudad >Getafe</ciudad>
+                    </direccion>
+                    <faltas_asistencia/>
+                    <notas/>
+                </alumno>
+
+               <alumno>
+                    <nombre>Carlos López Sánchez</nombre>
+                    <dni>52369874B</dni>
+                    <telefono>666455477</telefono>
+                    <email>carloslopez@gmail.com</email>
+                    <direccion>
+                        <calle numero="15">Ópalo</calle>
+                        <codigo_postal>28905</codigo_postal>
+                        <ciudad >Getafe</ciudad>
+                    </direccion>
+                    <faltas_asistencia>0</faltas_asistencia>
+                    <notas estado="apto"/>
+                </alumno>
+            </alumnos>
+        </modulo>
+    </modulos>
+</daw>

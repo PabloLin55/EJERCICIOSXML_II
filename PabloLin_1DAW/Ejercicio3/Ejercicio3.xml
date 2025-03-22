@@ -1,0 +1,33 @@
+<!--
+Nombre: Pablo Lin
+Curso: 1DAW
+Fecha: 21/03/2025
+Ejercicio: XMLBásico3
+-->
+<recetas>
+<!--Definición de una receta-->
+    <receta>
+        <nombre>Sopa de cebolla</nombre> 
+        <comensales cantidadComensales="4"/>
+        <ingredientes>
+            <ingrediente cantidad="1Kg">Cebollas</ingrediente>
+            <ingrediente cantidad="2L">Caldo de carne</ingrediente>
+            <ingrediente cantidad="100gr">Mantequilla</ingrediente>
+            <ingrediente cantidad="1Cucharada">Harina</ingrediente>
+            <ingrediente cantidad="100gr">Queso emmental</ingrediente>
+            <ingrediente cantidad="1">Hoja de laurel</ingrediente>
+            <ingrediente>Pan tostado en rebanadas</ingrediente>
+            <ingrediente>Tomillo</ingrediente>
+            <ingrediente>Pimienta</ingrediente>
+        </ingredientes>
+
+        <proceso>
+            <paso orden="1">Pelar y partir las cebollas en rodajas finas.</paso>
+            <paso orden="2">Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.</paso>
+            <paso orden="3">Añadir la harina sin dejar de remover.</paso>
+            <paso orden="4">Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</paso>
+            <paso orden="5">Dejar cocer a fuego lento durante unos 15 minutos.</paso>
+            <paso orden="6">Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.</paso>
+        </proceso>
+    </receta>
+</recetas>

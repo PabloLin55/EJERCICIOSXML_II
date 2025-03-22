@@ -1,0 +1,29 @@
+<!--
+Nombre: Pablo Lin
+Curso: 1DAW
+Fecha: 21/03/2025
+Ejercicio: XMLBásico1
+-->
+
+<!--Cada una de las páginas web-->
+<marcadores>
+<!--Definición de una página web-->
+    <paginaWeb>
+        <nombre>W3Schools</nombre>
+        <descripcion>Tutoriales de informática.</descripcion>
+        <url>https://www.w3schools.com/</url>
+    </paginaWeb>
+
+    <paginaWeb>
+        <nombre>Wikipedia</nombre>
+        <descripcion>La enciclopedia libre.</descripcion>
+        <url>https://www.wikipedia.org/</url>
+    </paginaWeb>
+
+    
+    <paginaWeb>
+        <nombre>W3C</nombre>
+        <descripcion>World Wide Web Consortium.</descripcion>
+        <url>https://www.w3.org/</url>
+    </paginaWeb>
+</marcadores>

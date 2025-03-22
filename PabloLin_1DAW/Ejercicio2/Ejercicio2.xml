@@ -1,0 +1,43 @@
+<!--
+Nombre: Pablo Lin
+Curso: 1DAW
+Fecha: 21/03/2025
+Ejercicio: XMLBásico2
+-->
+
+<equiposFutbol> 
+<!--Definición de un equipo de futbol-->
+   <equipo>
+        <nombre>Real Madrid C.F</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador/>
+        <jugadores>
+            <jugador posicion="Centrocampista">
+                <nombre>Luka Modric</nombre>
+                <nacionalidad>Croata</nacionalidad>
+            </jugador>            
+
+            <jugador posicion="Defensa">
+                <nombre>Dani Carvajal</nombre>
+                <nacionalidad>Española</nacionalidad>
+            </jugador>
+        </jugadores>
+   </equipo>  
+
+    <equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador/>
+        <jugadores>
+            <jugador posicion="Delantero">
+                <nombre>Robert Lewandowski</nombre>
+                <nacionalidad>Polaca</nacionalidad>
+            </jugador>            
+
+            <jugador posicion="Portero">
+                <nombre>Marc-André ter Stegen</nombre>
+                <nacionalidad>Alemana</nacionalidad>
+            </jugador>
+        </jugadores>
+   </equipo>  
+</equiposFutbol>
